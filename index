@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" href="css.css" />
+
+        <title>Wild Circus</title>
+
+    </head>
+
+    
+    <body>
+        <div id="main-wrapper">
+            <header>
+                <div id="headp">
+                    <div id="logo">
+                        <img src="http://imageshack.com/a/img921/4530/zoJoqj.png" alt="Logowildcircus" id="headclown" />
+                        <h1>Wild Circus</h1>    
+                    </div>
+                    <h2>Saison 2016-2017</h2>
+                </div>
+            
+                <nav>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">buy tikets</a></li>
+                        <li><a href="#">press</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+              <section>
+                <a href="#"><div class="acrobats">
+                    <h2>Acrobats</h2>
+                    <p>Here are our new acrobats for the year 2017, come straight from Russia they will surprise you with their show "Umpala".</p>
+                    <img id="acrobats" alt="acrobats-russe" src="http://imageshack.com/a/img924/1074/uTiXTn.jpg" />
+                    </div></a>
+                  
+                  
+                <a href="#"><div class="trainers">
+                    <h2>Trainers</h2>
+                    <p>Lions, Elephants, Horse, Pets, all our trainers are ready to offer you the most beautiful shows of the world.</p>
+                    <img id="trainers" alt="trainers-tigers" src="http://imageshack.com/a/img924/7088/egqGuv.jpg" />
+                    </div></a>
+                  
+                  
+                <a href="#"><div class="clown">
+                    <h2>Clowns</h2>
+                    <p> The clowns of the wild circus will make you cry of laughter,  the children will not believe their eyes.</p>
+                    <img class="clowns" alt="wild circus clowns" src="http://imageshack.com/a/img924/21/SjPYUr.jpg" />
+                    <img class="clowns" alt="wild circus clowns" src="http://imageshack.com/a/img922/6638/3B4gZY.jpg" />
+                    <img class="clowns" alt="wild circus clowns" src="http://imageshack.com/a/img922/7162/lqBi8v.jpg" />
+                    <img class="clowns" alt="wild circus clowns" src="http://imageshack.com/a/img922/869/xLKNw1.jpg" />
+                    </div></a>
+            </section>
+
+            
+            
+                  <footer>
+                <h5>Wild Circus  2016 </h5>
+                      <p id="socials">
+                          
+                          <a href="#"><img  class="social" src="http://imageshack.com/a/img923/9285/HMUPYC.png" alt="fcb" /></a>
+                              <a href="#"><img  class="social" src="http://imageshack.com/a/img922/3440/xzVXqY.png" alt="fcb" /></a>
+                              <a href="#"><img  class="social" src="http://imageshack.com/a/img921/1329/P5G3vC.png" alt="fcb" /></a>
+                          <a href="#"><img  class="social" src="http://imageshack.com/a/img924/3609/yQQYr0.png" alt="fcb" /></a>
+                      </p>
+            </footer>
+            
+            <script type="text/javascript" src="javascript/jquery-          3.1.1.min.js"> </script>
+                <script  type="text/javascript" src="javascript/jquery.rotate.js"></script>
+              <script>  
+                 $('#headclown').css('rotate', 45);
+              $('#headclown').animate({rotate: '360'}, 2000);
+            </script>
+          
+            
+        </div>
+    </body>
+</html>
+
