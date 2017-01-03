@@ -1,0 +1,224 @@
+body
+{
+    background: url('http://imageshack.com/a/img922/1373/ZAx9aF.jpg');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#main-wrapper
+{
+    width: 1000px;
+    margin: auto;
+    
+
+}
+
+section h1, footer h1, nav a
+{
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/*HEADER*/
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+
+#headp
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+
+#logo img
+{
+    width: 60px;
+    height: 60px;
+}
+
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+
+header h2
+{
+    margin-left: 100px;
+    font-family: serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+
+
+/* Navigation */
+
+
+nav ul
+{
+
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+
+    color: blue;
+    border-bottom: 3px solid blue;
+
+}
+
+
+
+
+/* SECTION*/
+
+section
+{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.trainers, .acrobats, .clown
+{
+    text-align: justify;
+    position: relative;
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 5px #181818;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 20px;
+    font-size: 1em;
+}
+section a
+{
+    text-decoration: none;
+    color: #181818;
+}
+
+section h2
+{
+    text-align:center;
+}
+
+.acrobats
+{
+    width: 500px;
+    height: 400px;
+}
+
+#acrobats
+{
+    width: 500px ;
+    height:270px ;
+    border-radius: 5px;
+}
+
+.trainers
+{
+    width: 350px;
+    height:400px;
+}
+
+#trainers /* image tigre*/
+{
+    width: 350px;
+    height: 250px;
+    border-radius:5px;
+}
+
+.clown
+{
+    width:925px ;
+    height: 300px ;
+    margin-top: 20px;
+}
+
+.clowns
+{
+    width: 200px;
+    height: 190px;
+    border-radius:5px;
+    margin-left: 20px;
+}
+
+
+.find-us, .acrobats, .clown
+{
+    text-align: justify;
+    position: relative;
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 5px #181818;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 20px;
+    font-size: 1em;
+}
+
+
+/* FOOTER*/
+
+
+footer
+{
+    margin-top: 50px;
+    height: 120px;
+    background-color: whitesmoke;
+    border-radius:5px;
+}
+footer h5
+{
+    padding:5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.social
+{
+    width: 40px;
+}
+#socials
+{
+    margin-left: 410px;
+}
